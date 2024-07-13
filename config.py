@@ -34,7 +34,7 @@ except:
 
     ACCOUNTS = [
         {"hvh": "account1", "token": "1718902865975GLgIVynDzZLPDwQncoMhSIPFNoH2uw23wsv0D7VWeCVXLI6Ck4CAPNYLCFTB4e6F5650113965", "buy_upgrades": False, "buy_decision_method": "payback",},
-        {"osinter": "account3", "token": "1719149435519MdCBJbCSB9SArIR5VSJ3Xmnqo7QLLLv5XG6oBgYpdmAPtcah1wlS5pYhbinc3yra7181802623", "buy_upgrades": True, "buy_decision_method": "price",},
+       ## {"osinter": "account3", "token": "1719149435519MdCBJbCSB9S", "buy_upgrades": True, "buy_decision_method": "price",},
     ]
 for account in ACCOUNTS:
     account['buy_upgrades'] = account.get('buy_upgrades', FEATURES.get('buy_upgrades', True))
