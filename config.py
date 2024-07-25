@@ -33,7 +33,7 @@ except:
     }
 
     ACCOUNTS = [
-        {"hvh": "account1", "token": "1718902865975GLgIVynDzZLPDwQncoMhSIPFNoH2uw23wsv0D7VWeCVXLI6Ck4CAPNYLCFTB4e6F5650113965", "buy_upgrades": False, "buy_decision_method": "profitness",},
+        {"hvh": "account1", "token": "1718902865975GLgIVynDzZLPDwQncoMhSIPFNoH2uw23wsv0D7VWeCVXLI6Ck4CAPNYLCFTB4e6F5650113965", "buy_upgrades": True, "buy_decision_method": "profitness",},
        ## {"osinter": "account3", "token": "1719149435519MdCBJbCSB9S", "buy_upgrades": True, "buy_decision_method": "price",},
     ]
 for account in ACCOUNTS:
